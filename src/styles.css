@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+
+:root {
+  --bg-color-1: #fcec8c;
+  --bg-color-2: #a1e7cf;
+  --inner-bg-color-1: #ffc0a5;
+  --inner-bg-color-2: #fdafbc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+    60deg,
+    var(--bg-color-1) 0%,
+    var(--bg-color-2) 100%
+  );
+}
+
+.App {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+}

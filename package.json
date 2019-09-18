@@ -1,0 +1,30 @@
+{
+  "name": "rwhon",
+  "version": "1.0.0",
+  "description": "just a playground!",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "nanoid": "2.0.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1",
+    "store": "2.0.12",
+    "styled-components": "4.3.2"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
